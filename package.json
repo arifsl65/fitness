@@ -5,12 +5,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-css": "npx tailwindcss-cli build -i src/tailwind-input.css -o src/tailwind.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -22,5 +22,29 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "dependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.1.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1"
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifsl65/fitness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arifsl65/fitness/issues"
+  },
+  "homepage": "https://github.com/arifsl65/fitness#readme",
+  "description": ""
 }
